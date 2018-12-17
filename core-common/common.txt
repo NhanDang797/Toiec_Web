@@ -1,0 +1,3 @@
+
+
+đây là nơi chứa tất cả các phương thức sẽ dùng chung cho toàn bộ hệ thống.

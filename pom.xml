@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>vn.myclass</groupId>
+    <artifactId>TOIEC_ONLINE</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>web</module>
+        <module>web-logic</module>
+        <module>core-web</module>
+        <module>core-data</module>
+        <module>core-common</module>
+        <module>core-persistence-data</module>
+        <module>core-dao</module>
+        <module>core-dao-impl</module>
+        <module>core-service</module>
+        <module>core-service-impl</module>
+        <module>core-utils</module>
+        <module>core_dto</module>
+        <module>test</module>
+    </modules>
+
+    <!-- để quản lý version những thư viện-->
+    <properties>
+        <servlet.api.version>3.1.0</servlet.api.version>
+        <jsp.api.version>2.3.1</jsp.api.version>
+        <mysql.connector.version>8.0.11</mysql.connector.version>
+        <hibernate.version>5.3.7.Final</hibernate.version>
+        <log4j.version>1.2.17</log4j.version>
+        <testng.version>6.14.3</testng.version>
+        <sitemesh.version>2.4.2</sitemesh.version>
+        <jstl.version>1.2</jstl.version>
+        <beanutils.version>1.9.3</beanutils.version>
+        <displaytag.version>1.2</displaytag.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${servlet.api.version}</version>
+
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>javax.servlet.jsp-api</artifactId>
+            <version>${jsp.api.version}</version>
+        </dependency>
+        <!-- MySQL -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.connector.version}</version>
+        </dependency>
+        <!-- Hibernate -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${hibernate.version}</version>
+        </dependency>
+
+        <!-- Log4j -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+        <!-- thư viện để test BackEnd-->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+</project>
