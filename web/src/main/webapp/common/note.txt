@@ -1,0 +1,1 @@
+là folder  chứa các file jsp chung .
