@@ -2,7 +2,7 @@
 <suite name="TestAll">
     <test name="case1">
         <classes>
-            <class name="core.test.RoleTest"/>
+            <!--<class name="core.test.RoleTest"/>&lt;!&ndash;Tên của lớp test&ndash;&gt;-->
         </classes>
     </test>
 </suite>
