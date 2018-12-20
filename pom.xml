@@ -21,7 +21,7 @@
         <module>core-service-impl</module>
         <module>core-utils</module>
         <module>core_dto</module>
-        <module>test</module>
+        <module>api-test</module>
     </modules>
 
     <!-- để quản lý version những thư viện-->

@@ -1,7 +1,10 @@
-use toeiconline;
-INSERT INTO user(name, password, fullname, createddate, roleid) VALUES('admin', '123456', 'admin',CURRENT_TIMESTAMP, 1);
-INSERT INTO user(name, password, fullname, createddate, roleid) VALUES('truongtunglam', '123456', 'truong tung lam',CURRENT_TIMESTAMP, 2);
+use toieconline;
+insert  into role values(1,"Admin");
 
+select  * from user;
+insert  into user(name, password, fullname, createdate, roleid) values ("admin","123","admin",current_timestamp,1);
+insert  into user(name, password, fullname, createdate, roleid) values ("nhandang","123","Dang Huu Nhan",current_timestamp,2);
+insert  into user(name, password, fullname, createdate, roleid) values ("nhan123","123","Hữu Nhân",current_timestamp,2);
 
 
 
