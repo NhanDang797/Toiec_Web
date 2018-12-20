@@ -19,5 +19,5 @@
         <mapping class="entity.UserEntity"/>
         <mapping class="entity.ListenGuideLineEntity"/>
         <mapping class="entity.CommentEntity"/>
-    </session-factory>
+    </session-factory>   <!---->
 </hibernate-configuration>

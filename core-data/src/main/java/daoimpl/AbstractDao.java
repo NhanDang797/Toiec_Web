@@ -19,7 +19,7 @@ public class AbstractDao<ID extends Serializable, T> implements GenericDao<ID, T
         /*
          * 1.ham dung tra ve ten class khi goi den .
          * 2.getActualTypeArguments()[1]  >> lay vi tri T {{ <ID extends Serializable, T> }}
-         * */
+         */
 
         this.persistanceClass = (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[1];
     }
