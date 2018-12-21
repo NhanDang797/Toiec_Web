@@ -64,12 +64,13 @@
             <version>${hibernate.version}</version>
         </dependency>
 
-        <!-- Log4j -->
+        <!-- Log4j  Thư viện để hiện lỗi ở server-->
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>${log4j.version}</version>
         </dependency>
+
         <!-- thư viện để test BackEnd-->
         <dependency>
             <groupId>org.testng</groupId>
@@ -93,6 +94,14 @@
             <artifactId>jstl</artifactId>
             <version>${jstl.version}</version>
         </dependency>
+
+        <!--beanutils sử dụng quản lý các tham số truyền từ form lên Server-->
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>${beanutils.version}</version>
+        </dependency>
+
 
 
     </dependencies>
